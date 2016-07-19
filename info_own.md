@@ -24,7 +24,7 @@
         </ul>
         
         DZIÓBEK DO MENU
-        absolut
+        absolute
         +
         rodzeństwo absolut -> transform: rotate;
         
@@ -50,6 +50,8 @@ elem. "ON": zielony #1b907d, bold
                     #1dba9d
 NAV li margin: 50px
 hover:MENU >> width: 120px; height: 96px; >> znaleźć w Google: hover object 1 for object 2; przypisać klasy
+DZIÓBEK height: 10px; - bok kwadratu.
+DAĆ LINKI-CSS NA KOŃCU HEADER'A!!!
 </header>
 
 <section id="about">

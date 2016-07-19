@@ -129,30 +129,98 @@ header nav ul li:first-child, header nav ul li:nth-child(2) {
     margin-right: 50px;
 }
 
-/* ZACHOWANIA LINKÓW W NAWIGACJI! */
-header a:link, header a:visited {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-header a:hover {
-    text-decoration: none;
-}
-
-header a:active {
-    /* color: red; - trzeba tu zrobić wyskakujące menu */
-}
-
 /* WYSKAKUJĄCE MENU */
-.navi_menu {
+.navi_popping {
     width: 120px;
     height: 96px;
     background: black;
+    z-index: 2;
     position: absolute;
         bottom: -112px;
-        right: 185px;
+        /* right: 185px; - krzywo to wyglądało */
+        right: 200px;
 }
 
+/* OSTYLOWANIE DZIÓBKA DO MENU */
+.navi_triangle {
+    width: 20px;
+    height: 20px;
+    background: black;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    text-transform: lowercase;
+    position: absolute;
+        bottom: -26px;
+        /* right: 235px; - krzywo to wyglądało */
+        right: 250px;
+}
 
+.navi_main a {
+    text-transform: uppercase;
+}
+
+div nav.navi_main ul li a:hover nav.navi_popping, div nav.navi_main ul li a:hover nav.navi_triangle {
+    display: none;
+}
+
+.navi_popping ul li {
+    padding-top: 11px;
+    padding-left: 13px;
+}
+
+/* ZACHOWANIA LINKÓW W NAWIGACJI! - górny pasek */
+header nav ul li a:link, header nav ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+}
+
+header nav ul li a:active {
+    /* color: red; - pod spodem trzeba zrobić wyskakujące menu */
+}
+
+/* ZACHOWANIA LINKÓW W NAWIGACJI! - menu */
+/* header nav ul li a:link, header nav ul li a:visited {
+    line-height: 24px;
+}
+
+header nav ul li a:hover {
+    line-height: 24px;
+    padding: 50px;
+}
+
+header nav ul li a:active {
+}
+ */
 /* TU KOŃCZY SIĘ SEKCJA HEADER! */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
