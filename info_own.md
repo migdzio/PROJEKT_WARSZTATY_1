@@ -49,7 +49,7 @@ litery: szare #bbbbbb
 elem. "ON": zielony #1b907d, bold
                     #1dba9d
 NAV li margin: 50px
-hover:MENU >> width: 120px; height: 96px;
+hover:MENU >> width: 120px; height: 96px; >> znaleźć w Google: hover object 1 for object 2; przypisać klasy
 </header>
 
 <section id="about">
