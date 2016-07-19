@@ -134,6 +134,7 @@ header nav ul li:first-child, header nav ul li:nth-child(2) {
     width: 120px;
     height: 96px;
     background: black;
+    display: none;
     z-index: 2;
     position: absolute;
         bottom: -112px;
@@ -151,17 +152,16 @@ header nav ul li:first-child, header nav ul li:nth-child(2) {
     transform: rotate(45deg);
     text-transform: lowercase;
     position: absolute;
-        bottom: -26px;
-        /* right: 235px; - krzywo to wyglądało */
-        right: 250px;
+        bottom: 86px;
+        right: 55px;
 }
 
 .navi_main a {
     text-transform: uppercase;
 }
 
-div nav.navi_main ul li a:hover nav.navi_popping, div nav.navi_main ul li a:hover nav.navi_triangle {
-    display: none;
+.navi_main:hover + .navi_popping /* .navi_main:hover + .navi_triangle */ {
+    display: block;
 }
 
 .navi_popping ul li {
