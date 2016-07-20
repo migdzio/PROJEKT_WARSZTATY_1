@@ -138,7 +138,6 @@ header nav ul li:first-child, header nav ul li:nth-child(2) {
     z-index: 2;
     position: absolute;
         bottom: -112px;
-        /* right: 185px; - krzywo to wyglądało */
         right: 200px;
 }
 
@@ -156,12 +155,12 @@ header nav ul li:first-child, header nav ul li:nth-child(2) {
         right: 55px;
 }
 
-.navi_main a {
-    text-transform: uppercase;
+.navi_main:hover + .navi_popping {
+    display: block;
 }
 
-.navi_main:hover + .navi_popping /* .navi_main:hover + .navi_triangle */ {
-    display: block;
+.navi_main a {
+    text-transform: uppercase;
 }
 
 .navi_popping ul li {
@@ -179,26 +178,22 @@ header nav ul li a:hover {
     text-decoration: none;
 }
 
-header nav ul li a:active {
-    /* color: red; - pod spodem trzeba zrobić wyskakujące menu */
-}
+/* header nav ul li a:active {
+    color: red;
+} */
 
-/* ZACHOWANIA LINKÓW W NAWIGACJI! - menu */
-/* header nav ul li a:link, header nav ul li a:visited {
-    line-height: 24px;
-}
-
-header nav ul li a:hover {
-    line-height: 24px;
-    padding: 50px;
-}
-
-header nav ul li a:active {
-}
- */
 /* TU KOŃCZY SIĘ SEKCJA HEADER! */
 
+/* SEKCJA1 - ABOUT */
 
+/* tło do sekcji:
+background: -moz-linear-gradient(270deg, rgba(255,255,255,0.5) 0%, rgba(192,192,192,0.99) 99%, rgba(192,192,192,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,0.5)), color-stop(99%, rgba(192,192,192,0.99)), color-stop(100%, rgba(192,192,192,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(270deg, rgba(255,255,255,0.5) 0%, rgba(192,192,192,0.99) 99%, rgba(192,192,192,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(270deg, rgba(255,255,255,0.5) 0%, rgba(192,192,192,0.99) 99%, rgba(192,192,192,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(270deg, rgba(255,255,255,0.5) 0%, rgba(192,192,192,0.99) 99%, rgba(192,192,192,1) 100%); /* ie10+ */
+background: linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(192,192,192,0.99) 99%, rgba(192,192,192,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#c0c0c0',GradientType=0 ); /* ie6-9 */ */
 
 
 
