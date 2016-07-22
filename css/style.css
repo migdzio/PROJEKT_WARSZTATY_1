@@ -205,7 +205,7 @@ background-image: -webkit-linear-gradient(top, #D1D0D8 0%, #FFFFFF 80%);
 background-image: -ms-linear-gradient(top, #D1D0D8 0%, #FFFFFF 80%);
 background-image: linear-gradient(to top, #D1D0D8 0%, #FFFFFF 80%);
 }
-/* POWYŻEJ KOŃCZY SIĘ GRADIENT OD TŁA SEKCJI */
+/* POWYŻEJ KOŃCZY SIĘ GRADIENT TŁA DO SEKCJI */
 /* Dobra stronka: http://www.css3factory.com/linear-gradients/ */
 
 .about-left {
@@ -214,6 +214,7 @@ background-image: linear-gradient(to top, #D1D0D8 0%, #FFFFFF 80%);
 }
 
 .about-left img {
+    height: 400px;
     margin-top: 60px;
 }
 
@@ -271,11 +272,58 @@ dziedziczy po 'gallery_image'; kolor tekstu: !!!#5a5a5a;!!!
     margin-bottom: 100px;
 }
 
+.gallery-image {
+    float: left;
+    /* width: 300px;
+    height: 500px; */
+}
 
+.gallery-image img {
+    display: block;
+    width: 330px;
+    height: 230px;
+    /* float: left; */
+    /* width: 300px;
+    height: 300px;
+    margin-top: 100px; */
+}
 
+.gallery-image:first-child, .gallery-image:nth-child(2) {
+    margin-right: 30px;
+}
 
+.opacity-bar {
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
 
+.gallery-text {
+    width: 328px; /* zmienić -- 330 */
+    height: 255px;
+    padding: 13px;
+    border: 1px solid #5a5a5a;
+    float: left;
+}
 
+.gallery-text h3 {
+    width: 140px;
+    border-bottom: 4px solid #1dba9d;
+    font-size: 16px;
+}
+
+/* .gallery-text div {
+    width: 140px;
+    height: 22px;
+    margin: 3px;
+} */
+
+.gallery-text p {
+    color: #5a5a5a;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 15px;
+}
 
 
 
