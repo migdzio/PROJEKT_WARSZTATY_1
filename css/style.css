@@ -111,7 +111,8 @@ header .main_content {
 /* .logo span { */
 span {
     color: #1dba9d;
-    font-weight: bold; /* potrzebna grubsza czcionka */
+    font-weight: bold; /* potrzebna grubsza czcionka  --
+                          #2 Po namyśle, chyba jednak nie :P */
 }
 
 
@@ -325,6 +326,48 @@ background-image: linear-gradient(to top, #D1D0D8 0%, #FFFFFF 80%);
 
 /* KONIEC GALERII */
 
+/* <section id="price_list">
+height: 725px;
+background: #f1f1f1
+
+<div class="price_normal">
+height: 500px;
+width: 330px;
+margin-bottom: 70px;
+    <div-title> clear:both (?); // jeżeli nie, to 3 x div'y-offer zamknąć w jeszcze jednym div'ie i ust. poz. wewnątrz tegoż //
+        <green-border> width: 320px; height: 7px;
+    </div-title>
+    <div-offer>
+        <circle> square: 130px;
+            <small-circle> square: 65px; <small-circle>
+        </circle>
+        <class-1-bar> background: #e4e4e4
+        <class-2-bar> background: #f1f1f1;
+        <div-button> width: 120px; height: 35px;
+    </div-offer>
+</section-price-list> */
+
+#price-list {
+    height: 725px;
+    background: #f1f1f1;
+}
+
+.price-title {
+    width: 330px;
+    border-bottom: 7px solid #1dba9d;
+    margin-top: 47px;
+    margin-bottom:;
+}
+
+.price-title h2 {
+    width: 140px;
+    /* border-bottom: 4px solid #1dba9d; */
+    color: #5c5c5c;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 3px;
+    margin-top:;
+    margin-bottom:;
 
 
 
