@@ -251,20 +251,6 @@ background-image: linear-gradient(to top, #D1D0D8 0%, #FFFFFF 80%);
 
 /* KONIEC SEKCJI #ABOUT */
 
-/* <section id="gallery">
-height: 350px background: white; 
-margin-top: 30px; margin-bottom: 100px;
-
-<div class="gallery_image"> width: 330px; height: 230px;
-margin-right: 30px;
-
-    <opacity-bar> height: 60px;
-        <green-border> height: 7px;
-
-<div class="gallery_text">
-dziedziczy po 'gallery_image'; kolor tekstu: !!!#5a5a5a;!!!       
-</section-gallery> */
-
 #gallery {
     height: 350px;
     background: white;
@@ -290,12 +276,18 @@ dziedziczy po 'gallery_image'; kolor tekstu: !!!#5a5a5a;!!!
 
 .gallery-image:first-child, .gallery-image:nth-child(2) {
     margin-right: 30px;
+    position: relative;
 }
 
 .opacity-bar {
-    position: relative;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    margin: auto;
     height: 60px;
     width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5); 
 }
 
 .gallery-text {
@@ -307,6 +299,12 @@ dziedziczy po 'gallery_image'; kolor tekstu: !!!#5a5a5a;!!!
 }
 
 .gallery-text h3 {
+    width: 140px;
+    border-bottom: 4px solid #1dba9d;
+    font-size: 16px;
+}
+
+.gallery-image h3 {
     width: 140px;
     border-bottom: 4px solid #1dba9d;
     font-size: 16px;
@@ -325,7 +323,7 @@ dziedziczy po 'gallery_image'; kolor tekstu: !!!#5a5a5a;!!!
     margin-top: 15px;
 }
 
-
+/* KONIEC GALERII */
 
 
 
