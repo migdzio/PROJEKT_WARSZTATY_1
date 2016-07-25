@@ -326,27 +326,6 @@ background-image: linear-gradient(to top, #D1D0D8 0%, #FFFFFF 80%);
 
 /* KONIEC GALERII */
 
-/* <section id="price_list">
-height: 725px;
-background: #f1f1f1
-
-<div class="price_normal">
-height: 500px;
-width: 330px;
-margin-bottom: 70px;
-    <div-title> clear:both (?); // jeżeli nie, to 3 x div'y-offer zamknąć w jeszcze jednym div'ie i ust. poz. wewnątrz tegoż //
-        <green-border> width: 320px; height: 7px;
-    </div-title>
-    <div-offer>
-        <circle> square: 130px;
-            <small-circle> square: 65px; <small-circle>
-        </circle>
-        <class-1-bar> background: #e4e4e4
-        <class-2-bar> background: #f1f1f1;
-        <div-button> width: 120px; height: 35px;
-    </div-offer>
-</section-price-list> */
-
 #price-list {
     height: 725px;
     background: #f1f1f1;
@@ -500,7 +479,7 @@ sup {
     text-align: center;
     border-radius: 10px;
     position: relative;
-        left: -17px;
+        left: -20px;
         bottom: -90px;
     margin: auto;
 }
@@ -509,13 +488,145 @@ sup {
     margin-right: 20px;
 }
 
+.button.small.but-2 {
+    position: relative;
+        left: -20px;
+        bottom: -46px;
+}
 
+.button.small.but-3 {
+    position: relative;
+        left: -20px;
+        bottom: -5px;
+}
 
+/* KONIEC SEKCJI CENOWEJ */
 
+/* <section id="contact">
+height: 560px;
+margin-bottom (?): 15px;
+text-color: #c4c4c4;
 
+<div-inputs-contact-left>
+    width: 690px;
+</div-inputs>
+<div-contact-right>
+width: 360px;
 
+3 x div >> red-chair, check-box, submit-button;
+</section-contact> */
 
+#contact {
+    height: 560px;
+    margin-bottom: 15px;
+    color: #c4c4c4;
+}
 
+.inputs-contact-left {
+    width: 686px;
+    float: left;
+    margin-top: 50px;
+}
+
+.contact-right {
+    width: 360px;
+    float: right;
+    display: inline-block;
+}
+
+.usr-data {
+    width: 625px;
+    height: 60px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+textarea.usr-data {
+    width: 625px;
+    height: 190px;
+    max-width: 625px;
+    max-height: 190px;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.div-red-chair {
+    /* float: left; */
+    padding-right: 50px;
+    margin: 30px -20px 20px auto;
+}
+
+.personal-data {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    /* vertical-align: middle; */
+}
+
+.button.contact-submit {
+    height: 70px;
+    width: 350px;
+    margin: 25px 25px auto auto;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 70px;
+    
+}
+
+/* KONIEC CONTACT */
+
+footer {
+    height: 85px;
+    color: #adadad;
+    font-weight: 600;
+}
+
+.footer-left {
+    float: left;
+    margin-right: 380px;
+    line-height: 35px;
+}
+
+.footer-social-media {
+}
+
+.footer-sc {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-right: 5px;
+}
+
+.footer-sc.flickr {
+    background: url("../Specyfikacja/images/flickr.png");
+}
+
+.footer-sc.vime {
+    background: url("../Specyfikacja/images/vimeo.png");
+}
+
+.footer-sc.pint {
+    background: url("../Specyfikacja/images/pinterest.png");
+}
+
+.footer-sc.twitt {
+    background: url("../Specyfikacja/images/twitter.png");
+}
+
+.footer-logo{
+    float: right;
+    line-height: 35px;
+    font-size: 19px;
+}
+
+/* KONIEC KOŃCÓW */
 
 
 

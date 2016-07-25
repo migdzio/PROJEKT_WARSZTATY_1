@@ -118,9 +118,6 @@ text-color: #adadad
     <div class="social-media">
         margin-right: 10px;
     </div>
-    
-
-
 </footer>
 
 
