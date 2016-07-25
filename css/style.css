@@ -558,8 +558,38 @@ textarea.usr-data {
     margin: 30px -20px 20px auto;
 }
 
-.personal-data {
-    font-size: 22px;
+input[type=checkbox].css-checkbox {
+position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+padding-left:53px;
+height:40px; 
+display:inline-block;
+line-height:22px;
+background-repeat:no-repeat;
+background-position: 0 0;
+font-size:22px;
+vertical-align:middle;
+cursor:pointer;
+
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+background-position: 0 -40px;
+}
+label.css-label {
+background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_f8a2d57d4a85d123109b2b0e60b8a162.png);
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+label.css-label {
+    font-size: 9px;
     font-weight: 300;
 }
 
